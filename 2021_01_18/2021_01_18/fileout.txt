@@ -1,0 +1,21 @@
+#clude <stdio.h>
+
+void ma()
+
+{
+
+    FILE * IN;
+
+    if((IN=fopen(".txt","r"))==NULL)
+
+    {
+
+       prtf("Can't open .txt!");
+
+       return;
+
+    }
+
+    fclose(IN);
+
+}
